@@ -1,60 +1,90 @@
-# Estruturas de Dados em C#  
+📌 Estruturas de Dados em C#
 
-## Introdução  
+## 📖 Introdução  
 
-Este repositório foi criado para ajudar no estudo e na prática de estruturas de dados usando C#. Aqui, você encontrará implementações e explicações sobre estruturas essenciais, como listas encadeadas e árvores binárias, além de uma análise de desempenho e aplicações no mundo real.  
+Este repositório é um guia prático e teórico sobre estruturas de dados em C#. Aqui, você encontrará implementações de diversas estruturas, como listas encadeadas e árvores binárias, além de análises de desempenho e aplicações práticas.  
 
-## Objetivos  
+---
 
-Nosso objetivo é:  
+## 🎯 Objetivos  
 
-- Entender os conceitos fundamentais de estruturas de dados.  
-- Implementar as principais estruturas em C#.  
-- Analisar o desempenho e a complexidade dessas estruturas.  
-- Aplicar o conhecimento na resolução de problemas práticos.  
+✔️ Entender os conceitos fundamentais de estruturas de dados.  
+✔️ Implementar as principais estruturas em C#.  
+✔️ Analisar o desempenho e a complexidade dessas estruturas.  
+✔️ Aplicar o conhecimento em problemas reais.  
 
-## Como Estudar  
+---
 
-1. **Aprenda os conceitos**  
-   Antes de codificar, é essencial entender como cada estrutura funciona. Livros, vídeos e artigos podem te ajudar nessa etapa.  
+## 📚 Como Estudar  
 
-2. **Implemente em C#**  
-   Depois de entender a teoria, pratique! Comece pelas implementações deste repositório e tente modificá-las para testar diferentes cenários.  
+🎓 **Aprenda os conceitos**  
+Antes de codificar, entenda como cada estrutura funciona. Livros, vídeos e artigos podem te ajudar.  
 
-3. **Analise o desempenho**  
-   Meça o tempo de execução e o consumo de memória de suas implementações. Comparar diferentes abordagens ajuda a entender quando usar cada estrutura.  
+🖥️ **Implemente em C#**  
+Após entender a teoria, pratique! Use as implementações deste repositório e faça suas próprias adaptações.  
 
-4. **Resolva desafios**  
-   Coloque seu conhecimento em prática resolvendo problemas de programação. Plataformas como LeetCode e HackerRank são ótimas para isso.  
+📊 **Analise o desempenho**  
+Compare diferentes abordagens, medindo tempo de execução e consumo de memória.  
 
-5. **Contribua**  
-   Se quiser, ajude a melhorar este repositório adicionando novas estruturas, exemplos, testes ou melhorias na documentação.  
+🚀 **Resolva desafios**  
+Pratique resolvendo problemas em plataformas como LeetCode e HackerRank.  
 
-## Estruturas de Dados Abordadas  
+🤝 **Contribua**  
+Ajude a melhorar este repositório adicionando novas estruturas, exemplos, testes e documentação.  
 
-- Listas Encadeadas  
-- Listas Ordenadas  
-- Árvores Binárias  
-- (Novas estruturas serão adicionadas conforme forem implementadas)  
+---
 
-## Recursos Úteis  
+## 🏗️ Estruturas de Dados Abordadas  
 
-- (Aqui você pode incluir links para livros, cursos e outros materiais)  
+✅ Listas Encadeadas  
+✅ Listas Ordenadas  
+✅ Árvores Binárias  
+🚧 *(Novas estruturas serão adicionadas futuramente!)*  
 
-## Como Contribuir  
+---
+
+## 🔗 Recursos de Estudo  
+
+📘 **Apostilas e Simulações**  
+
+📌 Simule o funcionamento de uma **lista encadeada simples**:  
+🔗 [https://goo.gl/Cf3dJN](https://goo.gl/Cf3dJN)  
+
+📌 Conceitos básicos de **listas**:  
+🎥 [https://youtu.be/hWKvkh](https://youtu.be/hWKvkh)  
+
+📌 Mais sobre a estrutura de dados **lista**:  
+🔗 [https://goo.gl/3Kgmna](https://goo.gl/3Kgmna)  
+
+📌 **Listas encadeadas em C#**:  
+🎥 [https://youtu.be/oHJBLaD5fQk](https://youtu.be/oHJBLaD5fQk)  
+
+📌 Simulação de uma **árvore binária**:  
+🔗 [https://qoo.gl/qkZFdr](https://qoo.gl/qkZFdr)  
+
+📌 Conceitos sobre a estrutura de dados **árvore**:  
+🎥 [https://youtu.be/eiMMtyRBYCE](https://youtu.be/eiMMtyRBYCE)  
+
+---
+
+## 🔧 Como Contribuir  
 
 Se quiser colaborar, siga estes passos:  
 
-1. Faça um **fork** do repositório.  
-2. Crie uma **branch** para sua contribuição (`git checkout -b minha-contribuicao`).  
-3. Faça as alterações e os testes necessários.  
-4. Faça **commit** das mudanças (`git commit -am 'Descrição da mudança'`).  
-5. Envie para o seu fork (`git push origin minha-contribuicao`).  
-6. Abra um **pull request**.  
+1️⃣ **Fork** no repositório.  
+2️⃣ Crie uma **branch** para sua contribuição (`git checkout -b minha-contribuicao`).  
+3️⃣ Faça suas alterações e testes.  
+4️⃣ **Commit** suas mudanças (`git commit -am 'Descrição da mudança'`).  
+5️⃣ Envie para seu fork (`git push origin minha-contribuicao`).  
+6️⃣ Abra um **pull request**.  
 
-## Licença  
+---
 
-Este repositório está sob a minha licença... Brincadeira!!
+## 📝 Licença  
+
+Este repositório está sob minha licença (brincadeira haha). Sinta-se à vontade para usar e contribuir! 🚀  
+
+
 
 
 
