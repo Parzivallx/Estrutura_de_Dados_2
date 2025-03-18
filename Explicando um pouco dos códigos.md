@@ -45,10 +45,10 @@
     * Árvores binárias podem ser usadas para implementar sistemas de busca eficientes em jogos.
     * Por exemplo, um jogo com um grande mapa poderia usar uma árvore binária para armazenar informações sobre os locais do mapa.
     * O jogador poderia buscar por locais específicos de forma rápida e eficiente.
-* ** Inteligência artificial:**
+    Inteligência artificial:
     * Árvores binárias são usadas em algoritmos de inteligência artificial, como árvores de decisão.
     * Em jogos, árvores de decisão podem ser usadas para controlar o comportamento de personagens não jogáveis (NPCs).
-* ** Armazenamento de dados hierárquicos:**
+    Armazenamento de dados hierárquicos:
     * Árvores binárias são adequadas para armazenar dados hierárquicos, como a estrutura de um mundo de jogo.
     * Por exemplo, um jogo de estratégia poderia usar uma árvore binária para representar a hierarquia de unidades militares.
 
