@@ -45,7 +45,7 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 
 ## 🔗 Recursos de Estudo  
 
-📘 **Apostilas e Simulações**  
+📘 **apostila e os seus vídeos**  
 
 📌 Simule o funcionamento de uma **lista encadeada simples**:  
 🔗 [https://goo.gl/Cf3dJN](https://goo.gl/Cf3dJN)  
