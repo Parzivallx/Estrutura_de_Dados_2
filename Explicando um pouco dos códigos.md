@@ -14,7 +14,7 @@
 
 ### 1. Listas Encadeadas (ListaSimples)
 
-   Gerenciamento de inventário:
+* ** Gerenciamento de inventário:**
     * Uma lista encadeada pode ser usada para armazenar os itens que um personagem possui em seu inventário. Cada nó da lista representaria um item, com informações como nome, descrição, quantidade, etc.
     * A inserção e remoção de itens do inventário seriam operações eficientes em uma lista encadeada.
 * **⏱️ Filas de eventos:**
@@ -41,11 +41,11 @@
 
 ### 3. Árvores Binárias (BTree)
 
-* ** Sistemas de busca:**
+* **Sistemas de busca:**
     * Árvores binárias podem ser usadas para implementar sistemas de busca eficientes em jogos.
     * Por exemplo, um jogo com um grande mapa poderia usar uma árvore binária para armazenar informações sobre os locais do mapa.
     * O jogador poderia buscar por locais específicos de forma rápida e eficiente.
-    Inteligência artificial:
+ * **Inteligência artificial:**
     * Árvores binárias são usadas em algoritmos de inteligência artificial, como árvores de decisão.
     * Em jogos, árvores de decisão podem ser usadas para controlar o comportamento de personagens não jogáveis (NPCs).
     Armazenamento de dados hierárquicos:
