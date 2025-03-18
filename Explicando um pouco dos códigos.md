@@ -14,7 +14,7 @@
 
 ### 1. Listas Encadeadas (ListaSimples)
 
-* ** Gerenciamento de inventário:**
+   Gerenciamento de inventário:
     * Uma lista encadeada pode ser usada para armazenar os itens que um personagem possui em seu inventário. Cada nó da lista representaria um item, com informações como nome, descrição, quantidade, etc.
     * A inserção e remoção de itens do inventário seriam operações eficientes em uma lista encadeada.
 * **⏱️ Filas de eventos:**
@@ -28,7 +28,7 @@
 
 ### 2. Listas Ordenadas (ListaSimples com insereNoOrdenado)
 
-* ** Placares de líderes (Leaderboards):**
+    Placares de líderes (Leaderboards):
     * Listas ordenadas são ideais para armazenar placares de líderes em jogos.
     * Cada nó da lista representaria um jogador, com informações como nome, pontuação, etc.
     * A lista seria mantida ordenada pela pontuação, permitindo exibir os melhores jogadores de forma eficiente.
@@ -41,7 +41,7 @@
 
 ### 3. Árvores Binárias (BTree)
 
-* ** Sistemas de busca:**
+    Sistemas de busca:
     * Árvores binárias podem ser usadas para implementar sistemas de busca eficientes em jogos.
     * Por exemplo, um jogo com um grande mapa poderia usar uma árvore binária para armazenar informações sobre os locais do mapa.
     * O jogador poderia buscar por locais específicos de forma rápida e eficiente.
@@ -54,7 +54,7 @@
 
 ### 4. Filas (Queue)
 
-* ** Processamento de eventos:**
+    Processamento de eventos:
     * Filas são usadas para processar eventos em ordem de chegada.
     * Eventos são adicionados à fila com `Enqueue`.
     * Eventos são removidos e processados da fila com `Dequeue`.
@@ -68,7 +68,7 @@
 
 ### 6. Dicionários (Dictionary)
 
-* ** Gerenciamento de recursos:**
+     Gerenciamento de recursos
     * Dicionários são usados para armazenar e acessar recursos do jogo de forma eficiente usando chaves.
     * Recursos são adicionados ao dicionário com `AdicionarRecurso`, usando um nome como chave.
     * Recursos são obtidos do dicionário com `ObterRecurso`, usando o nome como chave.
