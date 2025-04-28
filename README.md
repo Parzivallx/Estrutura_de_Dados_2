@@ -51,7 +51,7 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 🔗 [https://goo.gl/Cf3dJN](https://goo.gl/Cf3dJN)  
 
 📌 Conceitos básicos de **listas**:  
-🎥 [https://youtu.be/hWKvkh](https://youtu.be/hWKvkh)  @
+🎥 [https://youtu.be/hWKvkh](https://www.youtube.com/watch?v=YOxkARui3Sc)  @
 
 📌 Mais sobre a estrutura de dados **lista**:  
 🔗 [https://goo.gl/3Kgmna](https://goo.gl/3Kgmna)  @
