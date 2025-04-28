@@ -48,19 +48,19 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 📘 **apostila e os seus vídeos**  
 
 📌 Simule o funcionamento de uma **lista encadeada simples**:  
-🔗 [https://goo.gl/Cf3dJN](https://goo.gl/Cf3dJN)  
+🔗 [https://portaldoprofessor.fct.unesp.br/projetos/cadilag/apps/structs/lista_ord_simples.php](https://portaldoprofessor.fct.unesp.br/projetos/cadilag/apps/structs/lista_ord_simples.php)  
 
 📌 Conceitos básicos de **listas**:  
-🎥 [https://youtu.be/hWKvkh](https://www.youtube.com/watch?v=YOxkARui3Sc)  @
+🎥 [https://www.youtube.com/watch?v=YOxkARui3Sc](https://www.youtube.com/watch?v=YOxkARui3Sc)  
 
 📌 Mais sobre a estrutura de dados **lista**:  
-🔗 [https://goo.gl/3Kgmna](https://goo.gl/3Kgmna)  @
+🔗 [https://www.youtube.com/watch?v=f0id4WmVeMo](https://www.youtube.com/watch?v=f0id4WmVeMo)  
 
 📌 **Listas encadeadas em C#**:  
-🎥 [https://youtu.be/oHJBLaD5fQk](https://youtu.be/oHJBLaD5fQk)  
+🎥 [https://www.youtube.com/watch?v=hWKvkh_hCVc](https://www.youtube.com/watch?v=oHJBLaD5fQk&t=186s)  
 
 📌 Simulação de uma **árvore binária**:  
-🔗 [https://qoo.gl/qkZFdr](https://qoo.gl/qkZFdr)  @
+🔗 [https://portaldoprofessor.fct.unesp.br/projetos/cadilag/apps/structs/arv_binaria.php](https://portaldoprofessor.fct.unesp.br/projetos/cadilag/apps/structs/arv_binaria.php)  
 
 📌 Conceitos sobre a estrutura de dados **árvore**:  
 🎥 [https://youtu.be/eiMMtyRBYCE](https://youtu.be/eiMMtyRBYCE)  
