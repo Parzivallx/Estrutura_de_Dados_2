@@ -51,16 +51,16 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 🔗 [https://goo.gl/Cf3dJN](https://goo.gl/Cf3dJN)  
 
 📌 Conceitos básicos de **listas**:  
-🎥 [https://youtu.be/hWKvkh](https://youtu.be/hWKvkh)  
+🎥 [https://youtu.be/hWKvkh](https://youtu.be/hWKvkh)  @
 
 📌 Mais sobre a estrutura de dados **lista**:  
-🔗 [https://goo.gl/3Kgmna](https://goo.gl/3Kgmna)  
+🔗 [https://goo.gl/3Kgmna](https://goo.gl/3Kgmna)  @
 
 📌 **Listas encadeadas em C#**:  
 🎥 [https://youtu.be/oHJBLaD5fQk](https://youtu.be/oHJBLaD5fQk)  
 
 📌 Simulação de uma **árvore binária**:  
-🔗 [https://qoo.gl/qkZFdr](https://qoo.gl/qkZFdr)  
+🔗 [https://qoo.gl/qkZFdr](https://qoo.gl/qkZFdr)  @
 
 📌 Conceitos sobre a estrutura de dados **árvore**:  
 🎥 [https://youtu.be/eiMMtyRBYCE](https://youtu.be/eiMMtyRBYCE)  
