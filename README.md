@@ -34,7 +34,7 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 
 ---
 
-## 🏗️ Estruturas de Dados Abordadas  
+##🏗️ Estruturas de Dados Abordadas
 
 ✅ Listas Encadeadas
 ✅ Listas Ordenadas
