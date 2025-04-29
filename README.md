@@ -39,6 +39,7 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 ✅ [Listas Encadeadas](Lista Encadeada/O que é.md)
 ✅ [Listas Ordenadas](Lista Ordenada/O que é.md)
 ✅ [Árvores Binárias](Árvore Binária/O que é.md)
+
 🚧 *(Novas estruturas serão adicionadas futuramente!)*  
 
 ---
