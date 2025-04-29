@@ -36,10 +36,9 @@ Ajude a melhorar este repositório adicionando novas estruturas, exemplos, teste
 
 ## 🏗️ Estruturas de Dados Abordadas  
 
-✅ [Listas Encadeadas](Lista Encadeada/O que é.md)
-✅ [Listas Ordenadas](Lista Ordenada/O que é.md)
-✅ [Árvores Binárias](Árvore Binária/O que é.md)
-
+✅ Listas Encadeadas
+✅ Listas Ordenadas
+✅ Árvores Binárias
 🚧 *(Novas estruturas serão adicionadas futuramente!)*  
 
 ---
