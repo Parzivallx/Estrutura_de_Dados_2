@@ -1,5 +1,3 @@
----
-
 # 🌳 Árvores !!
 
 As estruturas apresentadas até aqui são chamadas de **lineares**. A importância dessas estruturas é inegável, porém, elas **não são adequadas para representar dados que devem ser dispostos de maneira hierárquica**. A estrutura que preenche essa lacuna é a **árvore**.
