@@ -1,7 +1,6 @@
-# Exemplos de Estruturas de Dados para Desenvolvimento de Jogos 
+# Exemplos de Estruturas de Dados para Desenvolvimento de Jogos
 
-
-##  Estruturas de Dados Abordadas
+## Estruturas de Dados Abordadas
 
 * **Listas Encadeadas (ListaSimples)**
 * **Listas Ordenadas (ListaSimples com insereNoOrdenado)**
@@ -10,11 +9,11 @@
 * **Pilhas (Stack)**
 * **Dicionários (Dictionary)**
 
-## ️ Exemplos de Uso
+## ️Exemplos de Uso
 
 ### 1. Listas Encadeadas (ListaSimples)
 
-* ** Gerenciamento de inventário:**
+* **Gerenciamento de inventário:**
     * Uma lista encadeada pode ser usada para armazenar os itens que um personagem possui em seu inventário. Cada nó da lista representaria um item, com informações como nome, descrição, quantidade, etc.
     * A inserção e remoção de itens do inventário seriam operações eficientes em uma lista encadeada.
 * **⏱️ Filas de eventos:**
@@ -28,16 +27,16 @@
 
 ### 2. Listas Ordenadas (ListaSimples com insereNoOrdenado)
 
- * **Placares de líderes (Leaderboards):**
+* **Placares de líderes (Leaderboards):**
     * Listas ordenadas são ideais para armazenar placares de líderes em jogos.
     * Cada nó da lista representaria um jogador, com informações como nome, pontuação, etc.
     * A lista seria mantida ordenada pela pontuação, permitindo exibir os melhores jogadores de forma eficiente.
-* ** Gerenciamento de entidades em um jogo:**
+* **Gerenciamento de entidades em um jogo:**
     * Em jogos com muitas entidades (inimigos, projéteis, etc.), uma lista ordenada pode ser usada para gerenciar essas entidades.
     * A lista poderia ser ordenada pela distância das entidades em relação ao jogador, permitindo renderizar as entidades mais próximas primeiro.
 * **⚡ Filas de prioridade:**
     * Listas ordenadas podem ser usadas para implementar filas de prioridade, onde os elementos com maior prioridade são processados primeiro.
-    * Isso pode ser útil em jogos com eventos com diferentes níveis de importância.
+    * Isso pode ser útil em jogos com eventos de diferentes níveis de importância.
 
 ### 3. Árvores Binárias (BTree)
 
@@ -45,16 +44,16 @@
     * Árvores binárias podem ser usadas para implementar sistemas de busca eficientes em jogos.
     * Por exemplo, um jogo com um grande mapa poderia usar uma árvore binária para armazenar informações sobre os locais do mapa.
     * O jogador poderia buscar por locais específicos de forma rápida e eficiente.
- * **Inteligência artificial:**
+* **Inteligência artificial:**
     * Árvores binárias são usadas em algoritmos de inteligência artificial, como árvores de decisão.
     * Em jogos, árvores de decisão podem ser usadas para controlar o comportamento de personagens não jogáveis (NPCs).
-    Armazenamento de dados hierárquicos:
+* **Armazenamento de dados hierárquicos:**
     * Árvores binárias são adequadas para armazenar dados hierárquicos, como a estrutura de um mundo de jogo.
     * Por exemplo, um jogo de estratégia poderia usar uma árvore binária para representar a hierarquia de unidades militares.
 
 ### 4. Filas (Queue)
 
-    Processamento de eventos:
+* **Processamento de eventos:**
     * Filas são usadas para processar eventos em ordem de chegada.
     * Eventos são adicionados à fila com `Enqueue`.
     * Eventos são removidos e processados da fila com `Dequeue`.
@@ -68,15 +67,16 @@
 
 ### 6. Dicionários (Dictionary)
 
-* ** Gerenciamento de recursos**
+* **Gerenciamento de recursos:**
     * Dicionários são usados para armazenar e acessar recursos do jogo de forma eficiente usando chaves.
     * Recursos são adicionados ao dicionário com `AdicionarRecurso`, usando um nome como chave.
     * Recursos são obtidos do dicionário com `ObterRecurso`, usando o nome como chave.
 
-##  Exemplos de Código em C#
+---
+
+## Exemplos de Código em C#
 
 ```csharp
-
 // Exemplo de uso de lista encadeada para inventário
 ListaSimples inventario = new ListaSimples();
 inventario.insereFim(new Node("Poção de vida"));
@@ -105,3 +105,6 @@ Console.WriteLine($"Ação desfeita: {acaoDesfeita.Tipo}");
 GerenciadorRecursos gerenciadorRecursos = new GerenciadorRecursos();
 gerenciadorRecursos.AdicionarRecurso("textura_inimigo", new UnityEngine.Texture2D(10, 10)); // Usando UnityEngine.Texture2D como exemplo
 object textura = gerenciadorRecursos.ObterRecurso("textura_inimigo");
+```
+
+---
