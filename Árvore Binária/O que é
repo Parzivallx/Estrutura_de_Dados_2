@@ -1,65 +1,229 @@
-Árvores !!
+---
 
-As estruturas apresentadas até aqui são chamadas de lineares. A importância dessas estruturas é inegável, porém, elas não são adequadas para representar dados que devem ser dispostos de maneira hierárquica. A estrutura que preenche essa lacuna é a árvore.
+# 🌳 Árvores !!
 
-Uma árvore é uma estrutura bidimensional, não linear (Figura 15), que possui propriedades especiais e admite muitas operações de conjuntos dinâmicos, tais como a consulta, insercão, remoção. entre outros.
+As estruturas apresentadas até aqui são chamadas de **lineares**. A importância dessas estruturas é inegável, porém, elas **não são adequadas para representar dados que devem ser dispostos de maneira hierárquica**. A estrutura que preenche essa lacuna é a **árvore**.
 
-Figura 15 - Representação de uma estrutura dedados árvore
-Fonte: Adaptado de Ascencio (2010)
+Uma **árvore** é uma estrutura **bidimensional, não linear**, que possui propriedades especiais e admite muitas operações de conjuntos dinâmicos, tais como:
 
-As características de árvores são (Figura 16):
-* ﻿﻿nó raiz: nó no topo da árvore, do qual descendem o os demais nós; é o primeiro nó da árvore;
+- Consulta  
+- Inserção  
+- Remoção  
+- Entre outros
 
-* ﻿﻿nó interior: nó do interior da árvore (que possui descendentes);
+> **Figura 15** - Representação de uma estrutura de dados árvore
 
-* ﻿﻿nó terminal: nó que não possui descendentes;
+```
+        (Raiz)
+          |
+    +-----+-----+
+    |           |
+ (Filho)     (Filho)
+    |           |
++---+---+     +---+
+|       |     |   |
+(Filho) (Filho) (Filho)
+```
+*Fonte: Adaptado de Ascencio (2010)*
 
-* ﻿﻿trajetória: número de nós que devem ser percorridos até o nó determinado;
+---
 
-* ﻿﻿grau do nó: número de nós descendentes do nó, ou seja, o número de subár-vores de um nó;
+## 🔹 Características de Árvores
 
-* ﻿﻿grau da árvore: número máximo de subárvores de um nó;
+- **Nó raiz**: nó no topo da árvore, do qual descendem os demais nós; é o primeiro nó da árvore;  
+- **Nó interior**: nó do interior da árvore (que possui descendentes);  
+- **Nó terminal**: nó que não possui descendentes;  
+- **Trajetória**: número de nós que devem ser percorridos até o nó determinado;  
+- **Grau do nó**: número de nós descendentes do nó, ou seja, o número de subárvores de um nó;  
+- **Grau da árvore**: número máximo de subárvores de um nó;  
+- **Altura da árvore**: número máximo de níveis dos seus nós.
 
-* ﻿﻿altura da árvore: número máximo de níveis dos seus nós.
+> **Figura 16** - Elementos de uma árvore
 
-Podemos utilizar árvores binárias para armazenamento temporário de conjunto de elementos e pode ser implementada com armazenamento dinâmico, através de listas duplamente encadedas. Com relação ao tipo, elas podem ser do tipo listas generalizadas ou binárias. Nas árvores binárias, cada nó possui, no máximo, dois filhos. Nesta Unidade, abordaremos apenas as árvores binárias.
+```
+        (A) <- Raiz
+        / \
+     (B) (C) <- Nós interiores
+     / \
+  (D) (E) <- Nós terminais (folhas)
+```
 
-Árvores binárias !!
+---
 
-Uma árvore binária pode ser nula, e assim como qualquer árvore possui um elemento denominado raiz, e os demais elementos são particionados em T, e T2, estruturas disjuntas de árvore binária. A subárvore da esquerda é denominada T, e a da direita Tz
+Podemos utilizar **árvores binárias** para armazenamento temporário de conjuntos de elementos e podem ser implementadas com **armazenamento dinâmico**, através de **listas duplamente encadeadas**.
 
-Nesse tipo de árvore também existe a particularidade quanto à posição dos nós.
-Os nós da direita sempre possuem valor superior aos do nó pai, e os da esquerda sempre possuem valor inferior ao do nó pai (veja a Figura 17).
+Com relação ao tipo, elas podem ser do tipo **listas generalizadas** ou **binárias**.  
+Nas árvores binárias, cada nó possui, no máximo, dois filhos. Nesta Unidade, abordaremos apenas as **árvores binárias**.
 
-Para a manipulação de árvore, existe uma grande similaridade com os nós criados para manipular listas, por isso utilizaremos os mesmos princípios, criaremos uma classe BTreeNo (Figura 18), a qual implementa o nó da árvore e contém os atributos item do tipo int, o que possibilita manipular números inteiros com o objetivo de facilitar o entendimento da lógica - mas vale lembrar que a árvore manipula qualquer tipo de dados e os atributos esq e dir do tipo TreeNo. A cada novo nó inserido na árvore, uma instância da classe BTreeNo será criada, ou seja, um novo objeto nó.
+---
 
+# 🌿 Árvores Binárias !!
 
-Inserir nó em uma árvore !!
+Uma **árvore binária** pode ser **nula** e, assim como qualquer árvore, possui um elemento denominado **raiz**, e os demais elementos são particionados em `T₁` e `T₂`, estruturas disjuntas de árvore binária.
 
-Após definir a estrutura do nó da árvore, o próximo passo é criar a classe ár-vore, que será instanciada toda vez que uma nova árvore for criada, contendo os métodos que possibilitem operações de inserção e exclusão de nós. Os métodos de inserção são apresentados na Figura 19.
+- A **subárvore da esquerda** é denominada `T₁`;  
+- A **subárvore da direita** é denominada `T₂`.
 
+Nesse tipo de árvore também existe a particularidade quanto à **posição dos nós**:
 
-De acordo com a lógic acima apresentada, o objeto BTreeNo será instanciado toda vez que um novo nó for inserido na árvore. O método inserirNo é o responsável em receber o valor a ser inserido e, então, ele chama o método inserir, que recebe como parâmetro um valor do tipo BTreeNo (chamado no código de árvore) e um valor inteiro. Esse percorre recursivamente a árvore a partir da raiz, buscando uma posição de referência nula para inserir o novo elemento.
+- Os **nós da direita** sempre possuem **valor superior** aos do nó pai;  
+- Os **nós da esquerda** sempre possuem **valor inferior** ao do nó pai.
 
-Quando a estrutura de dados está vazia, o método insere o novo elemento na raiz; quando a estrutura já tem elementos armazenados, o método verifica se o valor a ser inserido é maior ou menor que o nó. Caso seja menor, será inserido à es-querda; caso contrário, insere-se à direita. A recursividade é utilizada para percorrer os nós até encontrar um nó vazio (null) que possibilita a inserção de um novo nó.
+> **Figura 17** - Exemplo de árvore binária de busca
 
+```
+        (8)
+       /   \
+     (3)   (10)
+     / \      \
+   (1) (6)    (14)
+       / \    /
+     (4) (7) (13)
+```
 
-Exibir nós de uma árvore !!
+---
 
+Para a manipulação de árvore, existe uma grande similaridade com os nós criados para manipular listas. Por isso, utilizaremos os mesmos princípios.
 
-A partir da operação para exibir os valores, apresentaremos apenas o método correspondente, lembrando que esse e os demais foram desenvolvidos no escopo da classe BIree, apresentada na Figura 19.
+Criaremos uma classe `BTreeNo`, a qual implementa o **nó da árvore** e contém os atributos:
 
-Assim como o método inserirNo, os métodos exibirNoEsq e exibirNoDir não recebem parâmetros e chamam os métodos exibirEsquerdo ou exibiDireito, e passa como parâmetro o nó denominado raiz. Os métodos exibirEsquerdo e exibir Direito recebem como parâmetro um objeto do tipo BIreeNo, que é passado pelo método exibirNoEsq ou exibir NoDir; e que, por meio de chamadas recur-sivas, buscam os nós à esquerda ou à direita da árvore, até que não encontrem um nó nulo. Esse percurso garante a impressão sempre na ordem ascendente de valor.
+- `item` do tipo `int`, possibilitando manipular números inteiros (para facilitar o entendimento da lógica, mas a árvore pode manipular qualquer tipo de dados);  
+- `esq` e `dir` do tipo `TreeNo`.
 
+A cada novo nó inserido na árvore, uma instância da classe `BTreeNo` será criada, ou seja, um novo **objeto nó**.
 
-Excluir nó de uma árvore !!
+> **Figura 18** - Estrutura do nó da árvore
 
+```python
+class BTreeNo:
+    def __init__(self, valor):
+        self.item = valor
+        self.esq = None
+        self.dir = None
+```
 
-A exclusão de um nó da árvore requer uma lógica mais complexa, uma vez que as referências ao nó excluído e seus filhos precisam ser devidamente ajustados.
-A lógica a seguir, Figura 21, apresenta o método de exclusão, que recebe como parâmetro o valor do elemento a ser excluído.
+---
 
-Primeiramente, é feita uma busca nos diversos nós da árvore, comparando o valor passado como parâmetro com o valor do nó e, após isso, são tratados os diversos cenários que podem acontecer - tais como percorrer totalmente a árvore e não encontrar o valor; o nó pesquisado ser o nó raiz; nós sem filhos a direita ou a esquerda. Já para os nós com filhos à esquerda e à direita, é feita uma busca pelo elemento mais à direita do ramo esquerdo da árvore (maior valor em relação à raiz que será excluída) e esse elemento é trocado pela raiz e as referências atualizadas.
-conforme a Figura 22.
+## ➕ Inserir nó em uma árvore !!
 
-Caso o elemento pai não seja nulo, isso significa que o nó a ser excluído não é o nó raiz; e se o nó a ser excluído não possuir filho à direita, a referência do nó pai será trocada pela do nó a ser excluído (a mesma lógica é aplicada caso o nó não possuir filhos à esquerda). No cenário do nó a ser excluído possuir filhos à esquerda e à direita, é aplicada a mesma lógica de exclusão do nó raiz, porém, devem ser ajustas as referências do pai do nó a ser excluído. Veja o exemplo da
-Figura 23.
+Após definir a estrutura do nó da árvore, o próximo passo é criar a **classe árvore**, que será instanciada toda vez que uma nova árvore for criada, contendo os métodos que possibilitem operações de **inserção e exclusão de nós**.
+
+> **Figura 19** - Métodos de inserção
+
+```python
+class BTree:
+    def __init__(self):
+        self.raiz = None
+
+    def inserirNo(self, valor):
+        self.raiz = self.inserir(self.raiz, valor)
+
+    def inserir(self, arvore, valor):
+        if arvore is None:
+            return BTreeNo(valor)
+        elif valor < arvore.item:
+            arvore.esq = self.inserir(arvore.esq, valor)
+        else:
+            arvore.dir = self.inserir(arvore.dir, valor)
+        return arvore
+```
+
+### 🔍 Regras de Inserção:
+
+- Quando a árvore está **vazia**: insere o novo elemento na **raiz**;
+- Quando já há elementos:
+  - Se o valor a ser inserido é **menor**, será inserido à **esquerda**;
+  - Caso contrário, insere-se à **direita**;
+- A **recursividade** é utilizada para percorrer os nós até encontrar um `null`.
+
+---
+
+## 📤 Exibir nós de uma árvore !!
+
+A partir da operação para exibir os valores, apresentaremos **apenas o método correspondente**, lembrando que este e os demais foram desenvolvidos no escopo da classe `BTree`.
+
+- Assim como o método `inserirNo`, os métodos `exibirNoEsq` e `exibirNoDir` **não recebem parâmetros**;
+- Eles chamam os métodos `exibirEsquerdo` ou `exibirDireito`, passando como parâmetro o nó denominado **raiz**.
+
+### 🧭 Métodos `exibirEsquerdo` e `exibirDireito`:
+
+- Recebem como parâmetro um objeto do tipo `BTreeNo`;
+- São chamados via `exibirNoEsq` ou `exibirNoDir`;
+- Utilizam **recursão** para buscar os nós à esquerda ou à direita da árvore;
+- O percurso termina ao encontrar um **nó nulo**;
+- Isso garante a **impressão na ordem ascendente de valor**.
+
+---
+
+## ❌ Excluir nó de uma árvore !!
+
+A exclusão de um nó da árvore requer uma **lógica mais complexa**, pois as **referências ao nó excluído e seus filhos precisam ser ajustadas**.
+
+> Veja **Figura 22** para o processo visual.
+
+**Figura 22 - Processo de Exclusão de Nó em Árvore Binária**
+
+```
+ANTES DA EXCLUSÃO:
+        (8)
+       /   \
+     (3)   (10)
+     / \      \
+   (1) (6)    (14)
+       / \    /
+     (4) (7) (13)
+
+EXCLUINDO O NÓ (10):
+- Nó com apenas um filho (14).
+
+DEPOIS DA EXCLUSÃO:
+        (8)
+       /   \
+     (3)   (14)
+     / \    /
+   (1) (6) (13)
+       / \
+     (4) (7)
+```
+
+---
+
+### 🔁 Casos Especiais:
+
+- Se o **pai não for nulo**, o nó a ser excluído **não é a raiz**;
+- Se o nó **não possuir filho à direita**, a referência do pai será trocada;
+- O mesmo vale se **não possuir filho à esquerda**;
+- Se possuir **filhos à esquerda e à direita**, aplica-se a **mesma lógica da exclusão da raiz**, mas ajustando as **referências do pai** do nó a ser excluído.
+
+> Veja o exemplo na **Figura 23**.
+
+**Figura 23 - Ajuste de Referência do Pai Após Exclusão**
+
+```
+ANTES:
+        (8)
+       /   \
+     (3)   (14)
+     / \    /
+   (1) (6) (13)
+       / \
+     (4) (7)
+
+EXCLUINDO O NÓ (6):
+- Nó com dois filhos (4 e 7).
+
+PASSOS:
+- Encontrar o menor valor na subárvore direita (7);
+- Substituir o 6 por 7.
+
+DEPOIS:
+        (8)
+       /   \
+     (3)   (14)
+     / \    /
+   (1) (7) (13)
+    /
+  (4)
+```
+
+---
