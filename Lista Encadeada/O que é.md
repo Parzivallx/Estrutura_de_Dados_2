@@ -1,8 +1,6 @@
----
-
 # 📌 Lista Encadeada !!
 
-Conforme já apresentado, uma lista encadeada (ou ligada) consta de um número indeterminado de elementos dispostos em uma organização física não linear, ou seja, espalhados na memória, denominados nós. Para organizar a lista de maneira que essa possa ser utilizada como um conjunto linear, cada nó tem dois componentes (campos), um valor, que pode ser de qualquer tipo, e um endereço (uma referência) para o nó seguinte da lista. O último nó é representado de maneira diferente para signiticar que esse nó não se liga a nenhum outro, contorme mostrado na Figura 2.
+Conforme já apresentado, uma lista encadeada (ou ligada) consta de um número indeterminado de elementos dispostos em uma organização física não linear, ou seja, espalhados na memória, denominados nós. Para organizar a lista de maneira que essa possa ser utilizada como um conjunto linear, cada nó tem dois componentes (campos), um valor, que pode ser de qualquer tipo, e um endereço (uma referência) para o nó seguinte da lista. O último nó é representado de maneira diferente para significar que esse nó não se liga a nenhum outro, conforme mostrado abaixo.
 
 ```
 2 - Cartão de crédito  
@@ -22,13 +20,10 @@ Conforme já apresentado, uma lista encadeada (ou ligada) consta de um número i
 As listas encadeadas podem ser divididas em quatro categorias:
 
 - ﻿﻿Encadeada simples: cada nó contém um único endereço que o conecta ao nó seguinte ou sucessor, conforme mostrado na Figura 2;
-
 - ﻿﻿Duplamente encadeadas: cada nó contém dois endereços, um ao seu nó antecessor e outro ao seu sucessor. Veja a Figura 3;
-
 - Ordenadas: a ordem linear da lista corresponde à ordem linear dos elementos.  
   Assim, quando um novo elemento é inserido, o mesmo deve ser posicionado de tal modo que garanta que a ordem da lista será mantida (veja a Figura 4).  
   Uma lista ordenada pode ter encadeamento simples ou duplo, porém, o princípio de ordenação é o mesmo;
-
 - Circulares: o último elemento se liga ao primeiro elemento, e vice-versa. Essa lista pode ser percorrida de modo circular, tanto da direita para esquerda quanto da esquerda para direita. Conforme mostra a Figura 5.
 
 ---
@@ -64,7 +59,7 @@ prox = null;
 ```
 
 **Figura 6 - Classe que cria a estrutura de nó simples**  
-*Fonte: Adaptaddo de Próprio Autor*
+*Fonte: Adaptado de Próprio Autor*
 
 Observe que, no construtor, o atributo `prox` recebe nulo, pois, quando um elemento é inserido na lista, ele pode vir a ser o último elemento e, sendo assim, não possui próximo elemento.
 
@@ -80,7 +75,7 @@ Os programas escritos em C# podem ser reutilizados, então a classe `Node` poder
 
 Agora que você já conhece a estrutura do nó, podemos inserir novos elementos no início, no fim ou em uma posição específica da lista.
 
-Na lógica a seguir (Figura 7), temos, em uma classe chamada `ListaSimples`, os atributos do tipo `Node` `primeiro` e `segundo`, que referem-se ao primeiro e último nó da lista respectivamen-te, sendo que o último tem a referência para nulo (nulo), e três métodos de inserção de elemento na lista:
+Na lógica a seguir (Figura 7), temos, em uma classe chamada `ListaSimples`, os atributos do tipo `Node` `primeiro` e `segundo`, que referem-se ao primeiro e último nó da lista respectivamente, sendo que o último tem a referência para nulo (nulo), e três métodos de inserção de elemento na lista:
 
 - um método que insere um nó no início da lista (`inserelnicio`),
 - um que insere em uma posição específica (`inserePosicao`), veja Figura 8,
@@ -125,6 +120,6 @@ O método de buscar de um elemento da lista (Figura 10) recebe como parâmetro o
 
 Com esses métodos, você é capaz de utilizar a estrutura de dados lista para resolver problemas na área de jogos que sejam possíveis de serem aplicados à lógica aqui apresentada.
 
-Observe que, após você entender a da lista encadeada simples, os outros tipos de listas podem ser implementados.
+Observe que, após você entender a lista encadeada simples, os outros tipos de listas podem ser implementados.
 
 ---
